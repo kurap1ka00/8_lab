@@ -21,7 +21,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest 5_ut.py
+        pytest /home/runner/work/8_lab/8_lab/8_lab/5_ut.py
         pytest 6_ut.py
         pytest 7_ut.py
 
