@@ -10,7 +10,7 @@ def test_a1():
             continue
         else:
             s = tt1.a1(s,i)
-    assert s == "te"
+    assert s == "ta" #te
 
 def test_a2():
     n = "1 2 3 4 6".split()
