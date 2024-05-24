@@ -21,9 +21,9 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest 5ut.py
-        pytest 6ut.py
-        pytest 7ut.py
+        pytest 5_ut.py
+        pytest 6_ut.py
+        pytest 7_ut.py
 
     - name: Fail on test failure
       if: ${{ failure() }}
