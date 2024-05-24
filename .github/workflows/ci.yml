@@ -21,9 +21,9 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest /home/runner/work/8_lab/8_lab/8_lab/5_ut.py
-        pytest 6_ut.py
-        pytest 7_ut.py
+        pytest 8_lab/5_ut.py
+        pytest 8_lab/6_ut.py
+        pytest 8_lab/7_ut.py
 
     - name: Fail on test failure
       if: ${{ failure() }}
